@@ -8,7 +8,7 @@ import Sorteio from './components/Sorteio'
 
 export default function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <h1>React-Redux</h1>
       <div className='linha'>
         <Intervalo></Intervalo>

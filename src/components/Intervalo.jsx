@@ -14,11 +14,11 @@ const Intervalo = props => {
       <div className='intervalo'>
         <span>
           <strong>Minimo: </strong>
-          <input type="number" value={ min } onChange={ e => props.changeMin(+e.target.value) } />
+          <input type='number' value={ min } onChange={ e => props.changeMin(+e.target.value) } />
         </span>
         <span>
           <strong>Maximo: </strong>
-          <input type="number" value={ max } onChange={ e => props.changeMax(+e.target.value) } />
+          <input type='number' value={ max } onChange={ e => props.changeMax(+e.target.value) } />
         </span>
       </div>
     </Card>
