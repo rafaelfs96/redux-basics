@@ -5,7 +5,7 @@ import {
 
 const initialState = { min: 7, max: 31 }
 
-export default function(state = initialState, action) {
+export default function numerosReducers(state = initialState, action) {
   switch (action.type) {
     case NUM_MIN_CHANGED:
       return { ...state, min: action.payload }
